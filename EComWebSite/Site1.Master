@@ -1,0 +1,151 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="EComWebSite.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Universal</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+<div id="wrapper">
+  <div class="menuzone">
+    <div class="topMenu">
+      <ul>
+        <li class="first"><a class="current" href="#">Home</a></li>
+        <li><a href="about_us.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact_us.html">Contact Us</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div id="header">
+    <div id="logo"></div>
+    <div id="menu2">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div id="banner">
+    <h1>DIGITAL R50</h1>
+    <div class="features">
+      <ul>
+        <li>How it work? <br />
+          <span class="bannertxt">Lorem ipsum dolor sit amet, adipiscing elit.</span></li>
+        <li>Features and Benefits<br />
+          <span class="bannertxt">Nunc consectetuer diam ac odio.</span></li>
+        <li>Specifications<br />
+          <span class="bannertxt">Vivamus eleifend sollicitudin velit</span></li>
+      </ul>
+    </div>
+    <div class="readMore"><a href="#">ReadMore</a></div>
+  </div>
+  <div class="compatibility">
+    <div class="compatibilitybox">
+      <div class="compatibilitytxt"> Compatibility : </div>
+      <div class="compatibilityicon"> <a href="#"> <img src="images/window.jpg" alt="" border="0" /> </a> </div>
+      <div class="compatibilityicon"> <a href="#"> <img src="images/mac.jpg" alt="" border="0" /> </a> </div>
+      <div class="compatibilityicon"> <a href="#"> <img src="images/3.jpg" alt="" border="0" /> </a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <div class="welCome">
+    <div id="columZone">
+      <div class="column1">
+        <h3>
+            <asp:Label ID="LabelFashion" runat="server" Text=""></asp:Label>
+        </h3>
+          <asp:ImageButton ID="ImageButtonFashion" runat="server" Width="120" Height="120" OnClick="ImageButtonFashion_Click"/>
+<%--        <img src="images/product1.png" alt="" />--%>
+        <div class="columnText">
+            <asp:Label ID="LabelFashionDis" runat="server" Text=""></asp:Label> 
+          </div>
+        <div class="columnLink">100+ Brands <span class="order">| <a href="#">Shop Now</a></span> </div>
+      </div>
+      <div class="column1">
+        <h3>
+            <asp:Label ID="LabelGrocery" runat="server" Text="Grocery"></asp:Label>
+        </h3>
+          <asp:ImageButton ID="ImageButtonGrocery" runat="server" Width="120" Height="120" />
+<%--        <img src="images/product2.png" alt="" />--%>
+        <div class="columnText1">
+            <asp:Label ID="LabelGroceryDis" runat="server" Text=""></asp:Label>
+        </div>
+        <div class="columnLink">10,000+ Items <span class="order">| <a href="#">Shop Now</a></span> </div>
+      </div>
+      <div class="column1">
+        <h3>
+            <asp:Label ID="LabelMobiles" runat="server" Text="Mobiles"></asp:Label>
+        </h3>
+        <%--<img src="images/product3.png" alt="" />--%>
+          <asp:ImageButton ID="ImageButtonMobiles" runat="server" Width="120" Height="120" />
+        <div class="columnText1">
+            <asp:Label ID="LabelMobilesDis" runat="server" Text=""></asp:Label>
+        </div>
+        <div class="columnLink">100+ Brands <span class="order">| <a href="#">Shop Now</a></span> </div>
+      </div>
+      <div class="column2">
+        <h3>
+            <asp:Label ID="LabelBeauty" runat="server" Text="Beauty & Toys"></asp:Label>
+        </h3>
+          <asp:ImageButton ID="ImageButtonBeauty" runat="server" Width="120" Height="120"/>
+<%--        <img src="images/product4.png" alt="4" />--%>
+        <div class="columnText1">
+            <asp:Label ID="LabelBeautyDis" runat="server" Text=""></asp:Label>
+        </div>
+        <div class="columnLink">100+ Brands <span class="order">| <a href="#">Shop Now</a></span> </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="bottom_container">
+    <div id="container2">
+      <div class="welCome">
+        <div class="welComeleft"></div>
+        <div class="welComeright"></div>
+        <h2>WELCOME TO OUR SHOP </h2>
+      </div>
+      <div class="welCometextBox1">
+        <div class="welCometext"> <span class="welCometextBold">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</span> Duis cursus tortor. Nunc consectetuer diam ac odio. Pellentesque vel mauris sit amet urna malesuada ornare. Curabitur venenatis est eget arcu. Donec vestibulum. Proin rutrum. Morbi commodo fringilla orci. Ut vel tortor. In ut velit. Vivamus hendrerit aliquam quam. Curabitur placerat eros vitae libero. Fusce sagittis commodo purus. Cras orci. Quisque at justo.<br />
+          <br />
+          <span class="welCometextBold">Nunc viverra. Aliquam suscipit egestas turpis. Aenean mollis est.</span> Sed feugiat, nulla sit amet dictum aliquam, massa leo elementum risus, sed gravida felis erat ut libero. Integer sem nisi, adipiscing non, sagittis eget, hendrerit non, nisi. Aliquam ante. Nam magna. Pellentesque vitae velit at dui semper sodales. Curabitur accumsan ornare libero. Quisque auctor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nulla adipiscing porta ante. </div>
+      </div>
+    </div>
+    <div class="welCometextBox2">
+      <h4>LATEST NEWS</h4>
+      <div class="news">
+        <p><span>Nullam Quasta massiva</span> Consectetuer non, congue ac, ligula. Suspendisse hendrerit auctor velit. </p>
+        <p><span>Feugiat aliquam</span> Ut interdum nisi eget dolor. Ut at magna ac pede feugiat aliquam. </p>
+      </div>
+      <div class="more"><a href="#">more...</a></div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div id="footer">
+    <ul>
+      Copyright (c) Sitename.com. All rights reserved. Design by Stylish <a href="http://www.stylishtemplate.com">Website Templates</a>.
+    </ul>
+  </div>
+</div>
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,115 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-image: url('pexels.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+ font-family: sans-serif;
+}
+
+.registerBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 440px;
+    height: 980px;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    background: rgb(0 0 0 / 0.5);
+    border-radius:10px 15px;
+}
+
+.profileImage {
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    top: calc(-140px/2);
+    left: calc(50% - 70px);
+    position: absolute;
+    
+    
+}
+
+h2 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: rgb(230 126 48);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.lblname, .lblusertype, .lblage, .lbladdress, .lblemail, .lblphone, .lblusername, .lblpassword {
+    font-weight: bold;
+    color: #fff;
+}
+
+.textname, .dropdownusertype, .textage, .textaddress, .textemail, .textphone, .textusername, .textpassword, .btncreate {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textname, .textage, .textaddress, .textemail, .textphone, .textusername, .textpassword {
+    border: none;
+    border-bottom: 3px solid #fff;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.dropdownusertype {
+    height: 40px;
+    border-radius:6px 7px;
+    font-size: 16px;
+    margin-top:5px;
+    padding-left:6px;
+   
+}
+
+::placeholder {
+    font-size: small;
+    font-style: italic;
+}
+
+.btncreate {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(233 138 21);
+    cursor: pointer;
+    border-radius: 20px;
+    transition: ease-in-out;
+}
+
+    .btncreate:hover {
+        background-color: saddlebrown;
+    }
+
+.readresult {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 60px;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background: rgb(241 140 17 / 0.50);
+    border-block: solid;
+    border-block-color: saddlebrown;
+}
+
+.d1, .d2 {
+    padding: 0px 50px 0px 50px;
+    position: relative;
+}
+
+.userresult, .passwordresult {
+    font-weight: bold;
+    color: saddlebrown;
+}
